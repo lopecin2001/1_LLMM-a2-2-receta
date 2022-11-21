@@ -3,3 +3,77 @@
 <!-- p -->
 <!-- Enlaces a index, ingredientes, pasos y contacto -->
 <!-- formulario: nombre, email, seleccionar entre consulta/sugerencia/corrección, comentario, aceptar política de privacidad, enviar-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PÁGINA DE CONTACTO</title>
+    <style>
+        A{
+            text-decoration: none
+        }
+       
+    </style>
+</head>
+<body>
+    <h1>FORMULARIO DE CONTACTO</h1>
+    <p>En esta página resolveremos todas sus sugerencias, consultas y correcciones deseadas y podrá ponerse en contacto con nosotros cuando desee.</p>
+    <form>
+        <label for="nombre"> Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre"><br>
+        <label for="apellidos"> Apellidos:</label><br>
+        <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos"><br>
+        <label for="Email">Tuemail@gmail.com</label> <br> 
+        <input type="Email" id="Email" name="Email" placeholder="Email"><br>
+        <label for="password"> contraseña</label><br>
+        <input type="password" id="password" name="password" placeholder="contraseña"><br>
+        <br>
+        <label for="f_nacimiento">Fecha de nacimiento</label><br>
+        <input type="date" id="f_nacimiento" name="f_nacimiento"><br>
+        <br>
+        <label for="telefono">Numero de telefono</label><br>
+        <input type="tel" id="telefono" name="telefono"><br>
+        <br>
+        <label for="Edad">Edad</label><br>
+        <input type="number" id="edad" name="Edad" step="10"><br>
+        <br>
+        <h2>Seleccione la opcion que desea</h2> 
+        <input type="radio" id="radio-consulta" name="juegos">
+        <label for="radio-consulta">Consulta</label>
+        <br>
+        <input type="radio" id="radio-correccion" name="juegos">
+        <label for="radio-correccion">Correccion</label>
+        <br>
+        <input type="radio" id="radio-sugerencia" name="juegos">
+        <label for="radio-sugerencia">Sugerencia</label>
+        <br>      
+
+    <br>
+    <label for="Comentario">Escribe aquí tu comentario</label><br>
+    <textarea name="message" rows="10" cols="50" > 
+    </textarea>
+    <br>
+    <br>
+</form>
+<h2>Política de privacidad</h2>
+<input type="checkbox" name="He leido y acepto" id="He leido y acepto">
+<label for="He leido y acepto"> He leido y acepto</label> <br>
+<br>
+    <button type="button" onclick="alert('Formulario enviado!')">Enviar formulario</button>
+    <form action="formulario.html"></form>
+</body>
+<body>
+    <h2>Se redirige a</h2>
+        
+        <a href="./index.html">Index</a> <br>
+        
+        <a href="./ingredientes.html">Ingredientes</a> <br>
+        
+        <a href="./pasos.html">Pasos</a> <br>
+        
+     
+</body>
+</html>
